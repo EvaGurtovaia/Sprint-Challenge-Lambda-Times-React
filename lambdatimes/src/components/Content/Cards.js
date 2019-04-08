@@ -6,9 +6,6 @@ const Cards = props => {
     <div className="cards-container">
       {props.cards.map((data) => 
       <Card data={data} />)
-        
-        /* Using the cards prop, map over the list creating a 
-          new Card component for each passing the card as the only prop*/
 }
     </div>
   )

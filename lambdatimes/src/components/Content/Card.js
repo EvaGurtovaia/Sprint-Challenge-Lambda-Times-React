@@ -9,13 +9,13 @@ const Card = props => {
         <div className="img-container">
           <img src={props.data.img} alt="dog's image"/> 
         </div>
-        <span>By {props.data.author/* author goes here */}</span>
+        <span>By {props.data.author}</span>
       </div>
     </div>
   );
 };
 
-// Make sure to include PropTypes.
+
 Card.propTypes = {
 	headline: PropTypes.string,
 	img: PropTypes.string,

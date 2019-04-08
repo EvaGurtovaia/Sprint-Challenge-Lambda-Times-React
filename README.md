@@ -30,8 +30,13 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
 - [ ] Describe a life-cycle event in React?
+   It is an event that happens at a certain time in the components existance.
 - [ ] Explain the details of a Higher Order Component?
+   It is a component that takes in a component as an argument.
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+   1. CSS
+   2. Preprocessors
+   3. Styled components
 
 ## Project Setup
 
